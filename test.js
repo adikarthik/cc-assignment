@@ -5,7 +5,7 @@ function validate(){
 	var username = document.getElementById("username").value;
 	var password = document.getElementById("password").value;
 	
-	if ( username == "Adikarthik" && password == "2020mt13263"){
+	if ( username.toUpperCase() == "ADIKARTHIK" && password == "2020mt13262"){
 		alert ("Login Successfully");
 		window.location = "success.html"; 
 		return false;
